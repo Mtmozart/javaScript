@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <title>Validação em javaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script  src="js/scripts.js" defer></script>
+  </head> 
+  <body>
+    <h1>Form com validação javaScript</h1>
+    <form id="form">
+      <label for="name">Nome: </label>
+      <input type="text" id="name">
+      <label for="email">Email: </label>
+      <input type="email" id="email">
+      <label for="password">Senha: </label>
+      <input type="password" id="password">
+      <label for="job">Situação de trabalho: </label>
+      <select name="job" id="job">
+          <option value="">Está buscando emprego</option>
+          <option value="yes">Sim</option>
+          <option value="no">Não</option>
+      </select>
+
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+      <div class="modal-header">
+        <h2>Este é o Modal</h2>
+        <button id="close-modal">Fechar</button>
+      </div>
+      <div class="modal-body">
+        <p id="message_modal">
+         
+        </p>
+        
+      </div>
+    </div>
+  </body>
+
+</html>
